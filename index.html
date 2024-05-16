@@ -8,59 +8,63 @@
 </head>
 <body>
     <div class="mainContainer">
-        <div id="clock">12:00:56 AM</div>
+        <div id="clock" class="clock">
+            <div class="time">12:00:56 AM</div>
+            <div class="date">16 july 2024</div>
+        </div>
         <div class="screen">
-            <input type="text" placeholder="0" readonly id="screen">
+            <input type="text" placeholder="0" readonly id="screen1" class="srn1" >
+            <input type="text" placeholder="Ans" readonly id="screen2" class="srn2" >
         </div>
         <div class="buttons">
             <p>
-                <input type="button" value="sin" class="btn">
-                <input type="button" value="cos" class="btn">
-                <input type="button" value="tan" class="btn">
-                <input type="button" value="asin" class="btn">
-                <input type="button" value="acos" class="btn">
+                <input type="button" value="sin" class="btn btnSign">
+                <input type="button" value="cos" class="btn btnSign">
+                <input type="button" value="tan" class="btn btnSign">
+                <input type="button" value="asin" class="btn btnSign">
+                <input type="button" value="acos" class="btn btnSign">
                </p> 
                <p>
-                <input type="button" value="atan" class="btn">
-                <input type="button" value="π" class="btn">
-                <input type="button" value="ln" class="btn">
-                <input type="button" value="log" class="btn">
-                <input type="button" value="%" class="btn">
+                <input type="button" value="atan" class="btn btnSign">
+                <input type="button" value="π" class="btn btnSign">
+                <input type="button" value="ln" class="btn btnSign">
+                <input type="button" value="log" class="btn btnSign">
+                <input type="button" value="%" class="btn btnSign">
                </p> 
                <p>
-                <input type="button" value="sqd" class="btn">
-                <input type="button" value="cube" class="btn">
-                <input type="button" value="√" class="btn">
-                <input type="button" value="(" class="btn">
-                <input type="button" value=")" class="btn">
+                <input type="button" value="sqd" class="btn btnSign">
+                <input type="button" value="cube" class="btn btnSign">
+                <input type="button" value="√" class="btn btnSign">
+                <input type="button" value="(" class="btn btnSign">
+                <input type="button" value=")" class="btn btnSign">
                </p> 
-               <p>
-                <input type="button" value="7" class="btn">
-                <input type="button" value="8" class="btn">
-                <input type="button" value="9" class="btn">
-                <input type="button" value="Del" class="btn">
-                <input type="button" value="C" class="btn">
+               <p style="padding-top: 20px;">
+                <input type="button" value="7" class="btn btnNum">
+                <input type="button" value="8" class="btn btnNum">
+                <input type="button" value="9" class="btn btnNum">
+                <input type="button" value="Del" class="btn btnColored">
+                <input type="button" value="C" class="btn btnColored">
                </p>
                <p>
-                <input type="button" value="1" class="btn">
-                <input type="button" value="2" class="btn">
-                <input type="button" value="3" class="btn">
-                <input type="button" value="+" class="btn">
-                <input type="button" value="-" class="btn">
+                <input type="button" value="1" class="btn btnNum">
+                <input type="button" value="2" class="btn btnNum">
+                <input type="button" value="3" class="btn btnNum">
+                <input type="button" value="+" class="btn btnGray">
+                <input type="button" value="-" class="btn btnGray">
                </p>
                <p>
-                <input type="button" value="4" class="btn">
-                <input type="button" value="5" class="btn">
-                <input type="button" value="6" class="btn">
-                <input type="button" value="*" class="btn">
-                <input type="button" value="/" class="btn">
+                <input type="button" value="4" class="btn btnNum">
+                <input type="button" value="5" class="btn btnNum">
+                <input type="button" value="6" class="btn btnNum">
+                <input type="button" value="*" class="btn btnGray">
+                <input type="button" value="/" class="btn btnGray">
                </p>
                <p>
-                <input type="button" value="0" class="btn">
-                <input type="button" value="±" class="btn">
-                <input type="button" value="." class="btn">
-                <input type="button" value="Exp" class="btn">
-                <input type="button" value="=" class="btn">
+                <input type="button" value="0" class="btn btnNum">
+                <input type="button" value="±" class="btn btnGray">
+                <input type="button" value="." class="btn btnNum">
+                <input type="button" value="Exp" class="btn btnGray">
+                <input type="button" value="=" class="btn btnGray">
                </p>
         </div>
     </div>

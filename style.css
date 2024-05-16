@@ -3,10 +3,136 @@ body {
 }
 
 .mainContainer {
-    width: 390px;
-    height: 804px;
-    background-color: white;
+    width: 363px;
+    height: 730px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 4.58%, rgba(0, 0, 0, 0.288) 130%);;
+    backdrop-filter: blur(10px);
     border-radius: 16px;
-    border: 2px solid grey;
+    border: 6px solid black;
     margin: 0 auto;
+    text-align: center;
+    padding: 32px 16px;
+}
+
+
+.clock {
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.time, .date {
+    background-color: grey;
+    width: 110px;
+    height: 24px;
+    color: white;
+    padding: 6px 8px 2px 8px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.screen {
+    background-color: black;
+    height: 150px;
+    margin-top: 12px;
+    position: relative;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.srn1 {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    background-color: #bccd95;
+    border: none;
+    text-align: end;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+}
+
+.srn2 {
+    position: relative;
+    height: 20%;
+    width: 100%;
+    background-color: #bccd95;
+    border: none;
+    text-align: end;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 32px;
+}
+
+.btn {
+    background-color: lightsteelblue;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    width: 63px;
+    height: 50px;
+    margin: 2px 2px 2px 4px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    
+}
+
+.btnSign {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px  3px;
+    background-color: #413c3c;
+    border: 2px solid black;
+}
+
+.btnSign:active{
+    background-color: black;
+}
+
+.btnNum {
+    background-color: black;
+    border-bottom: 3px solid #413c3c;
+    border-top: 3px solid black;
+}
+
+.btnNum:active {
+    border-top: 3px solid #413c3c;
+    border-bottom: 3px solid black;
+}
+
+.btnColored{
+    background-color: rgb(152, 18, 18);
+    border-bottom: 3px solid #ac6767;
+    border-top: red;
+}
+
+.btnColored:active {
+    border-top: 3px solid #ac6767;
+    border-bottom: red;
+}
+
+
+.btnGray{
+    background-color: #212020;
+    border-bottom: 3px solid black;
+    border-top: 3px solid #212020;
+}
+
+.btnGray:active{
+    border-top: 3px solid black;
+    border-bottom: 3px solid #212020;
 }
