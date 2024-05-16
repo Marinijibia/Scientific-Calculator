@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+.mainContainer {
+    width: 390px;
+    height: 804px;
+    background-color: white;
+    border-radius: 16px;
+    border: 2px solid grey;
+    margin: 0 auto;
+}
