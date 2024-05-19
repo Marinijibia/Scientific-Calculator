@@ -13,60 +13,59 @@
             <div class="date">16 july 2024</div>
         </div>
         <div class="screen">
-            <div class="srn1">0</div>
-            <div class="srn2">Ans</div>
-            <!-- <input type="text" placeholder="0" readonly id="screen1" class="srn1" >
-            <input type="text" placeholder="Ans" readonly id="screen2" class="srn2" > -->
+            <textarea type="text" placeholder="0" readonly id="screen1" class="srn1"></textarea>
+            <!-- <input type="text" placeholder="Ans" readonly id="screen2" class="srn2" > -->
+            <div id="screen2" class="srn1">Ans</div>
         </div>
         <div class="buttons">
             <p>
-                <input type="button" value="sin" class="btn btnSign">
-                <input type="button" value="cos" class="btn btnSign">
-                <input type="button" value="tan" class="btn btnSign">
-                <input type="button" value="asin" class="btn btnSign">
-                <input type="button" value="acos" class="btn btnSign">
+                <input type="button" value="sin" class="btn btnSign" onclick="sine()">
+                <input type="button" value="cos" class="btn btnSign" onclick="cose()">
+                <input type="button" value="tan" class="btn btnSign" onclick="taan()">
+                <input type="button" value="asin" class="btn btnSign" onclick="invSin()">
+                <input type="button" value="acos" class="btn btnSign" onclick="invCos()">
                </p> 
                <p>
-                <input type="button" value="atan" class="btn btnSign">
-                <input type="button" value="π" class="btn btnSign">
-                <input type="button" value="ln" class="btn btnSign">
-                <input type="button" value="log" class="btn btnSign">
-                <input type="button" value="%" class="btn btnSign">
+                <input type="button" value="atan" class="btn btnSign" onclick="invTan()">
+                <input type="button" value="π" class="btn btnSign" onclick="press(22/7)">
+                <input type="button" value="ln" class="btn btnSign" onclick="ln()">
+                <input type="button" value="log" class="btn btnSign" onclick="log()">
+                <input type="button" value="%" class="btn btnSign" onclick="percent()">
                </p> 
                <p>
-                <input type="button" value="sqd" class="btn btnSign">
-                <input type="button" value="cube" class="btn btnSign">
-                <input type="button" value="√" class="btn btnSign">
-                <input type="button" value="(" class="btn btnSign">
-                <input type="button" value=")" class="btn btnSign">
+                <input type="button" value="sqd" class="btn btnSign" onclick="square()">
+                <input type="button" value="cube" class="btn btnSign" onclick="cube()">
+                <input type="button" value="√" class="btn btnSign" onclick="sqrt()">
+                <input type="button" value="(" class="btn btnSign" onclick="press('(')">
+                <input type="button" value=")" class="btn btnSign" onclick="press(')')">
                </p> 
                <p style="padding-top: 20px;">
-                <input type="button" value="7" class="btn btnNum">
-                <input type="button" value="8" class="btn btnNum">
-                <input type="button" value="9" class="btn btnNum">
-                <input type="button" value="Del" class="btn btnColored">
-                <input type="button" value="C" class="btn btnColored">
+                <input type="button" value="7" class="btn btnNum" onclick="press(7)">
+                <input type="button" value="8" class="btn btnNum" onclick="press(8)">
+                <input type="button" value="9" class="btn btnNum" onclick="press(9)">
+                <input type="button" value="Del" class="btn btnColored" onclick="delKey()">
+                <input type="button" value="C" class="btn btnColored" onclick="clearScreen(''), clearScreen2()">
                </p>
                <p>
-                <input type="button" value="1" class="btn btnNum">
-                <input type="button" value="2" class="btn btnNum">
-                <input type="button" value="3" class="btn btnNum">
-                <input type="button" value="+" class="btn btnGray">
-                <input type="button" value="-" class="btn btnGray">
+                <input type="button" value="4" class="btn btnNum" onclick="press(4)">
+                <input type="button" value="5" class="btn btnNum" onclick="press(5)">
+                <input type="button" value="6" class="btn btnNum" onclick="press(6)">
+                <input type="button" value="*" class="btn btnGray" onclick="press('*')">
+                <input type="button" value="/" class="btn btnGray" onclick="press('/')">
                </p>
                <p>
-                <input type="button" value="4" class="btn btnNum">
-                <input type="button" value="5" class="btn btnNum">
-                <input type="button" value="6" class="btn btnNum">
-                <input type="button" value="*" class="btn btnGray">
-                <input type="button" value="/" class="btn btnGray">
+                <input type="button" value="1" class="btn btnNum" onclick="press(1)">
+                <input type="button" value="2" class="btn btnNum" onclick="press(2)">
+                <input type="button" value="3" class="btn btnNum" onclick="press(3)">
+                <input type="button" value="+" class="btn btnGray" onclick="press('+')">
+                <input type="button" value="-" class="btn btnGray" onclick="press('-')">
                </p>
                <p>
-                <input type="button" value="0" class="btn btnNum">
-                <input type="button" value="±" class="btn btnGray">
-                <input type="button" value="." class="btn btnNum">
-                <input type="button" value="Exp" class="btn btnGray">
-                <input type="button" value="=" class="btn btnGray">
+                <input type="button" value="0" class="btn btnNum" onclick="press(0)">
+                <input type="button" value="±" class="btn btnGray" onclick="plusMinus()">
+                <input type="button" value="." class="btn btnNum" onclick="press('.')">
+                <input type="button" value="Exp" class="btn btnGray" onclick="exp()">
+                <input type="button" value="=" class="btn btnGray" onclick="calFunc()">
                </p>
         </div>
     </div>
